@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.fill-page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.fill-parent {
+  width: 100%;
+  height: 100%;
+}
+
+.flex                     { display: flex }
+.flex-centralized-content { justify-content: center }
+.flex-centralized-items   { align-items: center }
+.flex-centralized-both    { align-items: center; justify-content: center }
+.flex-direction-column    { flex-direction: column }
+.flex-direction-row       { flex-direction: row }
+
+.text-centralized { text-align: center }
