@@ -1,0 +1,8 @@
+div#Home {
+  main#content {
+    width: clamp(16rem, 80vw, 70rem);
+
+    margin: 32px auto;
+    gap: 32px
+  }
+}

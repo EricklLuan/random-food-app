@@ -1,0 +1,17 @@
+section#Random-Recipe-Getter {
+  flex-grow: 0;
+
+  main {
+    gap: 8px;
+    text-align: center;
+
+    p {
+      font-size: 1.25rem;
+    }
+
+    button {
+      width: 150px;
+      height: 32px;
+    }
+  }
+}

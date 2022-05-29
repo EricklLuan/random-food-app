@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3.052rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.441rem;
+  font-weight: 700;
 }
 
 .fill-page {
@@ -10,6 +24,14 @@
 
 .fill-parent {
   width: 100%;
+  height: 100%;
+}
+
+.fill-parent-width {
+  width: 100%;
+}
+
+.fill-parent-height {
   height: 100%;
 }
 

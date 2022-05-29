@@ -1,6 +1,20 @@
-#Recipes-Conteiner {
-  li {
-    margin-left: 34px;
+section#Recipes-Conteiner {
+  flex-grow: 1;
+  
+  main {
+    gap: 8px;
+    text-align: justify;
+  }
+
+  p.paragraph-section {
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  section#recipes-ingredients {
+    li {
+      margin-left: 40px;
+    }
   }
 
   section#recipes-intructions {
